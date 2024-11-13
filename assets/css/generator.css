@@ -127,15 +127,15 @@ span {
   }
 
   .content-area {
-    opacity: 0; /* Başlangıçta görünmez */
-    transform: translateY(-20px); /* Yukarıda başlayacak */
-    animation: fadeIn 2s ease-out forwards; /* 2 saniyede efekt tamamlanacak */
+    opacity: 0; 
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-out forwards; 
   }
   
   @keyframes fadeIn {
     to {
-      opacity: 1; /* Görünür hale gelir */
-      transform: translateY(0); /* Yerine oturur */
+      opacity: 1;
+      transform: translateY(0); 
     }
   }
 

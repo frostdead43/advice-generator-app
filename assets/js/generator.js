@@ -7288,10 +7288,14 @@ function render() {
   <button><img class="generate-btn" src="assets/images/dice-icon.svg"></button> -->
   `;
 
+  contentArea.classList.remove("content-area");
+
+  setTimeout(function() {
+    contentArea.classList.add("content-area")
+  })
+
   const generateBtn = document.querySelector(".generate-btn");
   generateBtn.addEventListener("click",render);
-
- 
 
 }
 
