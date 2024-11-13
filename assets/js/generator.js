@@ -7290,6 +7290,9 @@ function render() {
 
   const generateBtn = document.querySelector(".generate-btn");
   generateBtn.addEventListener("click",render);
+
+ 
+
 }
 
 render();
